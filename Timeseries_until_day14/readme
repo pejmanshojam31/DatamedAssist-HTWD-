@@ -1,17 +1,32 @@
-** # Time Series Analysis: ROC-AUC Comparison Across Models **
-This repository presents a time series analysis of predictive models, comparing their ROC-AUC performance over time across train, test, and validation sets. We explore two machine learning models—Random Forest and Logistic Regression—and evaluate their performance as more data points (days) are added to the training.
-#Analysis Overview
-The dataset comprises time-series data, with key features recorded at specific intervals (days). We evaluate the performance of the models using ROC-AUC over seven specific time points: [0, 3, 5, 7, 10, 12, 14]. For each model, we analyze the performance on three datasets:
+# Time Series Analysis: ROC-AUC Comparison Across Models
 
-Training set: Used to train the model.
-Test set: Held out during training to evaluate the model's performance.
-Validation set: An external dataset used to validate the model's generalization capability on unseen data.
+This repository presents a time series analysis of predictive models, comparing their **ROC-AUC** performance over time across **train**, **test**, and **validation** sets.
 
-Models
+## Models Used
+
 The following models were used:
+- **Random Forest**
+- **Logistic Regression**
 
-1. Random Forest (RF)
-2. Logistic Regression (LR)
+## Results
+
+### 1. Random Forest Performance
+
+**Generalization**: Random Forest performs well on both the test and validation sets...
+
+### 2. Logistic Regression Performance
+
+_Logistic Regression shows signs of overfitting..._
+
+## Recommendations
+
+1. **Random Forest**: Strong candidate for further refinement...
+2. **Logistic Regression**: Consider adjusting regularization parameters...
+
+## Visualization
+
+
+
 
 ##Key Results
 1. Random Forest Performance
