@@ -27,7 +27,7 @@ _Logistic Regression shows signs of overfitting..._
 
 <img src="https://github.com/user-attachments/assets/fbe7396e-daae-4ac9-b3bc-9d753bd1344d" alt="Download (1)" width="600"/>
 
-##Key Results
+## Key Results
 1. Random Forest Performance
 Generalization: Random Forest performs well on both the test and validation sets, showing little to no overfitting. The train, test, and validation ROC-AUC values remain closely aligned across all days.
 Consistency: The model’s performance improves as more days are added (up to day 10-12), with little gain beyond this point, suggesting the model has learned the key patterns by day 10.
