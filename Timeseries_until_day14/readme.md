@@ -2,6 +2,29 @@
 
 This repository presents a time series analysis of predictive models, comparing their **ROC-AUC** performance over time across **train**, **test**, and **validation** sets.
 
+
+# Data Preprocessing and Feature Aggregation
+The dataset used in this project contains time-series data of 3D tumor spheroids. Each sample belongs to one of two target categories:
+
+*Relapsed*: Tumor spheroids that relapsed after treatment.
+*Controlled*: Tumor spheroids that remained controlled after treatment.
+
+## Procedure Overview:
+### Feature Aggregation:
+The dataset includes multiple observations recorded at different time points (days), such as day 0, 3, 5, 7, 10, 12, and 14.
+To aggregate these features into a single row per sample, we use a pivot table to organize the features across the different days.
+Each feature is split by the day it was recorded, resulting in columns such as feature1_day0, feature1_day3, feature1_day5, and so on. This allows the model to consider how features evolve over time when predicting the outcome.
+### Merging the Aggregated Features with Target Labels:
+
+After aggregating the features for each tumor spheroid (or well), the dataset is merged with the corresponding target labels, and diagnosis. The target labels (relapsed vs controlled) are stored separately and merged back with the features based on the well (tumor spheroid sample).
+This results in a single dataframe where each row represents one tumor spheroid sample, with all the day-specific features and the target label.
+
+## Model Training:
+
+After preparing the features and target variable, the dataset is ready for training machine learning models.
+In this case, no balancing techniques are applied, as the dataset is sufficiently balanced between the two target categories (relapsed and controlled).
+The models are trained using the time-series data, where the evolution of features over different days is considered for making predictions.
+
 ## Models Used
 
 The following models were used:
