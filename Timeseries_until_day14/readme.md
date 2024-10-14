@@ -25,7 +25,7 @@ _Logistic Regression shows signs of overfitting..._
 
 ## Visualization
 
-![Download (1)](https://github.com/user-attachments/assets/fbe7396e-daae-4ac9-b3bc-9d753bd1344d)
+<img src="https://github.com/user-attachments/assets/fbe7396e-daae-4ac9-b3bc-9d753bd1344d" alt="Download (1)" width="600"/>
 
 ##Key Results
 1. Random Forest Performance
