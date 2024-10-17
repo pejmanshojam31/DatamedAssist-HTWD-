@@ -5,9 +5,12 @@ In this section, I used the external dataset to check the model performance and 
 #Results show a different accuracy but promising.
 The **Lasso + Logistic Regression model** appears to have performed the best overall on this external dataset, while SVC models consistently perform poorly.
 Feature selection using **PCA** and **Lasso** seem to yield more stable and competitive results across models.
-<img src="https://github.com/user-attachments/assets/4f05cf2f-5170-4419-82cc-482aefd8d616" width="600"/>
+
+<img src="https://github.com/user-attachments/assets/4f05cf2f-5170-4419-82cc-482aefd8d616" width="500"/>
+
 **Lasso + Logistic Regression** shows more balanced and reliable performance, even though the external dataset results are lower, indicating that this combination may be more robust for future external validation.
 The fluctuations in **Random Forest** on the external dataset suggest it may be more sensitive to data variance or noise, despite performing exceptionally well on the validation set.
+
 <img src="https://github.com/user-attachments/assets/d1dd0b87-1f5f-4bc0-a466-09dda4e0a919" width="600"/>
 
 #What Can You Do Now?
