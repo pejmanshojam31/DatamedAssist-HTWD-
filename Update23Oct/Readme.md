@@ -5,8 +5,5 @@ Therefore, I first combined the dataset and then splitter it based on five diffe
 <img src="https://github.com/user-attachments/assets/9eed4d75-9b5a-42df-8ceb-ed62f5b46164" width="500"/>
 
 In more detail, figure. 3 shows the differences between the train and test set of one of those folds. 
-
-<img src="https://github.com/user-attachments/assets/fe6f50e9-1ea8-4237-bbaf-a462941a9cf1" width="500"/>
-
 In conclusion, I would say the model works properly for the test set. 
-
+<img src="https://github.com/user-attachments/assets/fe6f50e9-1ea8-4237-bbaf-a462941a9cf1" width="500"/>
