@@ -10,4 +10,5 @@ Therefore, I first combined the dataset and then splitter it based on five diffe
 In more detail, figure. 3 shows the differences between the train and test set of one of those folds. 
 In conclusion, I would say the model works properly for the test set.
 
-<img src="https://github.com/user-attachments/assets/fe6f50e9-1ea8-4237-bbaf-a462941a9cf1" width="500"/>
+<img src="https://github.com/user-attachments/assets/4e0c30fe-55a2-4021-9d9c-8c18fb162bec" width="500"/>
+
